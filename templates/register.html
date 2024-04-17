@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="shortcut icon" href="{{url_for('static', filename='images/logo.ico')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/login.css')}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="/"><div class="header_element_left">Home</div></a>
+            <a href="/login"><div class="header_element_left">Login</div></a>
+            <a href="/search"><div class="header_element_left">Search</div></a>
+            <a href="https://pclub.in/"><div class="header_element_right">Website</div></a>
+        </header>
+        <div class="form_frame">
+            <img src="{{url_for('static', filename='images/pclub.png')}}"><br />
+            <h2>New Registrations Closed!</h2>
+        </div>
+        <footer>
+            <div class="footer-text-left">
+                Programming Club
+            </div>
+            <div class="footer-content-right">
+                <a href="https://www.linkedin.com/in/pclubiitk"><img src="{{url_for('static', filename='images/linkedin.webp')}}" class="icon-style" alt="LinkedIN"></a>
+                <a href="https://github.com/pclubiitk"><img src="{{url_for('static', filename='images/github.png')}}" class="icon-style" alt="Github"></a>
+                <a href="https://www.instagram.com/pclubiitk"><img src="{{url_for('static', filename='images/instagram.png')}}" class="icon-style" alt="Instagram"></a>
+                <a href="https://twitter.com/pclubiitk"><img src="{{url_for('static', filename='images/twitter.svg')}}" class="icon-style" alt="Twitter"></a>
+            </div>
+        </footer>
+    </body>
+</html>
