@@ -1,0 +1,4 @@
+flask
+flask-wtf
+colorama
+mysql-connector-python
